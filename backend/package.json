@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "simple node express server for the portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Extension1990/extension-dev.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "website"
+  ],
+  "author": "Extension Tlhareseng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Extension1990/extension-dev/issues"
+  },
+  "homepage": "https://github.com/Extension1990/extension-dev#readme"
+}
