@@ -1,0 +1,39 @@
+.navbar {
+    transition: 0.5s ease-in;
+    padding-left: 250px;
+    padding-right: 250px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    .collapse {
+        color: whitesmoke;
+        ul > li > a {
+            color: #03396C;
+            border: 1px solid transparent;
+        }
+        ul {
+            li {
+                a:hover {
+                    color: #c0af00;
+                    border-bottom: 1px solid #c0af00;
+                }
+                .nav-link.active {
+                    color: #ececec !important;
+                    border-bottom: 1px solid #ececec;
+                }
+            }
+        }
+    }
+}
+
+.contact>a {
+    color: #ffffff !important;
+    background-color: #c0af00 !important;
+    border: 1px solid #c0af00 !important;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact>a:hover {
+    color: #c0af00 !important;
+    border: 1px solid #c0af00 !important;
+    background-color: transparent !important;
+}

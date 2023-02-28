@@ -12,7 +12,9 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
+      <span>Extension &nbsp;</span><span>Tlhareseng</span>
       <button
+        class="ms-auto"
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
@@ -20,7 +22,6 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>extension-dev</span>
     </mat-toolbar>
     <!-- Add Content Here -->
   </mat-sidenav-content>
