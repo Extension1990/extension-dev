@@ -5,6 +5,9 @@ const client = require('mongodb');
 const cors = require('cors');
 const app = express();
 
+// Declare Routes
+const emailRoute = require('./routes/contact_form');
+
 // Use dependencies(Middleware)
 app.use(cors());
 app.use(express.json());
@@ -28,6 +31,10 @@ app.use((req, res, next) => {
 
 // Declare default port
 const port = process.env.PORT || 3000;
+
+
+// Register routes
+app.use('/emails', emailRoute);
 
 
 // MongoDB database connection
